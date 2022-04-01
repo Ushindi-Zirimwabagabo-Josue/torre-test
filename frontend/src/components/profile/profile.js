@@ -8,6 +8,7 @@ import {
   faBaby,
   faBiking,
   faChild,
+  faCheckCircle,
 } from '@fortawesome/free-solid-svg-icons';
 import SingleSkill from '../skill/skill';
 import './profile.css';
@@ -85,7 +86,24 @@ const Profile = () => {
                 alt="user profile"
                 className="profile-image mb-3"
               />
-              <h1 className="mb-3">{user.person.name}</h1>
+
+              <h1 className="mb-3 torre-font">
+                {user.person.name}{' '}
+                {user.person.verified && (
+                  <FontAwesomeIcon
+                    className="verified-icon"
+                    icon={faCheckCircle}
+                    size="xs"
+                  />
+                )}
+              </h1>
+              <h6 className="mb-3 torre-font">
+                {user.person.professionalHeadline}{' '}
+              </h6>
+              <h6 className="mb-2 torre-font">{user.person.location.name} </h6>
+              <p className="mb-2 summaryOfBio torre-font">
+                {user.person.summaryOfBio}{' '}
+              </p>
               <h2 className="text-start mb-2 px-3">Skills and interests: </h2>
               {generateSkills().map((skillLevel, index) => (
                 <div

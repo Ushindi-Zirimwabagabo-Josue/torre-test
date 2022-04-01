@@ -41,3 +41,13 @@ body {
 		transform: rotate(360deg);
 	}
 }
+
+.torre-font{
+	font-family: 'Mulish', 'Helvetica', 'Arial', sans-serif;
+}
+
+.summaryOfBio{
+	width: 30%;
+	margin: 0 auto;
+	text-align: left
+}
