@@ -6,11 +6,6 @@
 
 [Online Deployed Version](https://my-torre-app.herokuapp.com/user/josueuzj9)
 
-## API Sample on user endpoint
-
-To get user info response from API use this sample :
-Get skill info(endpoints data to be fetched):https://torre.bio/api/bios/johnndiwayesusantos@gmail.com
-
 ## 💻 This project is built with
 
 - [React.js](https://vuejs.org/guide/introduction.html) for frontend and API fetch
