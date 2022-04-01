@@ -1,0 +1,33 @@
+.overlay-color {
+	background-color: #27292d !important;
+	color: #b4b4b6 !important;
+}
+
+.input-overlay {
+	background-color: #27292d !important;
+	color: #b4b4b6 !important;
+	border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.input-overlay::placeholder {
+	color: #b4b4b6 !important;
+}
+
+.button-overlay {
+    outline: none !important;
+    background: transparent !important;
+    border: 1px solid transparent !important;
+}
+
+.overlay-container {
+    box-shadow: 0 0 10px #000;
+}
+
+.navbar-brand {
+    font-family: Mulish, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    color: rgb(205, 220, 57);
+}

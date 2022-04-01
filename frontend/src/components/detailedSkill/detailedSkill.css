@@ -1,0 +1,14 @@
+.detailed-skill-container {
+	background-color: #383b40;
+	color: #eaeacc;
+	overflow-y: auto !important;
+    max-height: 80vh;
+}
+
+.sk-container h3{
+	text-align: center;
+}
+
+.capitalize{
+	text-transform: capitalize;
+}

@@ -1,0 +1,7 @@
+.skill {
+	background-color: #383b40 !important;
+	float: left;
+	cursor: pointer;
+	border-radius: 30px;
+	/* border: none; */
+}
